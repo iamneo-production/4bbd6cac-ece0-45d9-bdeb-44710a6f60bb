@@ -1,0 +1,59 @@
+/* ProfilePage.css */
+
+.profile-page {
+    max-width: 400px;
+    height: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* background-image: url('https://res.cloudinary.com/dyrrmsdbj/image/upload/v1690269793/th_tp2gye.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background-color: black;
+    opacity: 0.7;
+    
+  }
+  
+  .profile-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .advisor-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 10%;
+    object-fit: cover;
+    /* background-image: url("https://res.cloudinary.com/dyrrmsdbj/image/upload/v1690264390/th_mbwxrw.jpg"); */
+  }
+  
+  .profile-details h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  .profile-details p {
+    margin: 50px 0;
+    color: #fff;
+  }
+  
+  .contact-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 130px;
+    background-color: #eef2f7;
+    color: #0a0a0a;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .contact-button:hover {
+    background-color: #0056b3;
+  }
+  

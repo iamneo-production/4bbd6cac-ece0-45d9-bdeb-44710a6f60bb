@@ -1,0 +1,82 @@
+/* ReviewPage.css */
+
+.review-page {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: black;
+    opacity: 0.2;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .reviews-list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .review {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .author {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .review-text {
+    margin: 0;
+  }
+  
+  .review-form {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .review-form h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .review-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .review-form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .review-form input,
+  .review-form textarea {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .review-form button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .review-form button:hover {
+    background-color: #0056b3;
+  }
+  
